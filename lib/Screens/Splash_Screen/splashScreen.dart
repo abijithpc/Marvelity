@@ -21,7 +21,7 @@ class _SplashscreenState extends State<Splashscreen>
       const Duration(seconds: 3),
       () {
         Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => Homescreen()));
+            MaterialPageRoute(builder: (context) => const Homescreen()));
       },
     );
   }
@@ -48,7 +48,7 @@ class _SplashscreenState extends State<Splashscreen>
               ),
             ),
           ),
-          Column(
+          const Column(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               SpinKitWave(
